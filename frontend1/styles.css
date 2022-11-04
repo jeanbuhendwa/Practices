@@ -1,81 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;600;700&display=swap');
 * {
     padding: 0;
     margin: 0;
 }
 body{
     background-color: hsl(219, 62%, 86%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
 .container {
-    display: block;
     background-color: white;
-    margin: auto;
-    width: 200px;
+    width: 180px;
     padding: 10px;
-    margin-top: 20px;
-    border: 1px solid white;
-    border-radius: 8px;
+    margin: 20px;
+    border-radius: 10px;
 }
 .container #image img{
-    width: 200px;
-    height: 200px;
-    border-radius: 8px;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
 }
-.container #text-img {
-    padding: 5px;
-    text-align: center;
-}
-.container #text-img h2{
+.container #text-img h1{
     font-family: 'Outfit', sans-serif;
-    font-size: 16px;
-    line-height: 20px;
+    font-weight: 700;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 5px;
     margin: 10px 0px;
+    transition: color 0.5s;
 }
+.container #text-img h1:hover{
+    color:#3685FF ;
+}
+
 .container #text-img p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.7rem;
     color: gray;
-    line-height: 15px;
-    margin: 10px 0px;
+    font-weight: 300;
+    text-align: center;
+    padding: 5px 10px;
 }
 footer{
     text-align: center;
     margin-top: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Outfit', sans-serif;
     color: #292929;
-    font-size: 13px;
+    font-size: 1rem;
 }
 footer a{
     color: #2E86C1;
     text-decoration: none;
+    transition: color 1s;
 }
 footer a:hover{
-    color: #1677b8;
-    text-decoration: underline;
+    color: #054f80;
 }
 
-@media only screen and (max-width : 768px){
-    .container{
-        width: 300px;
-        margin-top: 20%;
+@media only screen and (max-width : 850px){
+    .container {
+        width: 180px;
+        padding: 10px;
     }
     .container #image img{
-        width: 300px;
-        height: 300px;
+        width: 180px;
+        height: 180px;
     }
-    .container #text-img h2{
-        font-size: 22px;
-        line-height: 30px;
-    }
-    .container #text-img p{
-        font-size: 16px;
-        line-height: 20px;
-        margin: 10px 0px;
+    .container #text-img h1{
+        font-size: 0.9rem;
         padding: 5px;
     }
+    .container #text-img p{
+        font-size: 0.7rem;
+        padding: 10px 15px;
+    }
     footer{
-        margin-top: 50px;
-        font-size: 18px;
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+}
+@media only screen and (max-width : 500px){
+    .container {
+        width: 12rem;
+    }
+    .container #image img{
+        width: 12rem;
+        height: 12rem;
+    }
+    .container #text-img h1{
+        text-align: center;
         padding: 10px;
+    }
+    .container #text-img p{
+        font-size: 0.8rem;
+        padding: 5px 15px;
+    }
+    footer{
+        font-size: 0.7rem;
+        padding: 20px;
+        font-weight: 200;
     }
 }
