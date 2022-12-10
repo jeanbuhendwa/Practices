@@ -5,13 +5,70 @@
     margin: 0;
     font-family: 'Open Sans';
 }
+
+/* This is the styles for header and navigation menu */
 header {
-    padding: 20px 30px;
+    padding: 30px 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+header #img-logo {
+    width: 150px;
+    height: 40px;
+}
+header .navigation-links ul {
+    list-style: none;
+}
+header .navigation-links ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+header .navigation-links ul li a {
+    text-decoration: none;
+    color: hsl(238, 22%, 44%);
+}
 
+/* This block styles the the brand container */
+.main-container {
+    margin: 10px 50px;
+}
+.main-container .brand-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0px;
+}
+.main-container .brand-container .brand-text h1{
+    font-size: 2.2rem;
+    line-height: 3rem;
+    color: hsl(243, 87%, 12%);
+    font-weight: 700;
+}
+.main-container .brand-container .brand-text p{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    margin: 20px 0px;
+    color: hsl(243, 87%, 12%);
+}
+.main-container .brand-container .brand-text input{
+    padding: 8px 15px;
+    width: 220px;
+    border: 1px solid hsl(238, 22%, 44%);
+}
+.main-container .brand-container .brand-text button{
+    padding: 8px 15px;
+    width: 160px;
+    margin: 0px 10px;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    color: hsl(0, 0%, 95%);
+    font-weight: 400;
+}
+.main-container .brand-container .brand-img img{
+    width: 600px;
+    height: 400px;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
