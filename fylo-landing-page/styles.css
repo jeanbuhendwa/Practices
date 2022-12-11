@@ -31,14 +31,15 @@ header .navigation-links ul li a {
 }
 
 /* This block styles the the brand container */
-.main-container {
+/* .main-container {
     margin: 10px 50px;
-}
+} */
 .main-container .brand-container {
     display: flex;
     align-items: center;
     gap: 30px;
     padding: 20px 0px;
+    margin: 10px 50px;
 }
 .main-container .brand-container .brand-text h1{
     font-size: 2.2rem;
@@ -69,6 +70,20 @@ header .navigation-links ul li a {
 .main-container .brand-container .brand-img img{
     width: 600px;
     height: 400px;
+}
+
+/* This is the styles for the second branding section */
+
+.second-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    background: url(images/bg-curve-desktop.svg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
