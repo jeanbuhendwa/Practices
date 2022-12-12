@@ -57,6 +57,7 @@ header .navigation-links ul li a {
     padding: 8px 15px;
     width: 220px;
     border: 1px solid hsl(238, 22%, 44%);
+    font-size: 0.8rem;
 }
 .main-container .brand-container .brand-text button{
     padding: 8px 15px;
@@ -65,6 +66,7 @@ header .navigation-links ul li a {
     background-color: hsl(224, 93%, 58%);
     border: none;
     color: hsl(0, 0%, 95%);
+    font-size: 0.9rem;
     font-weight: 400;
 }
 .main-container .brand-container .brand-img img{
@@ -78,12 +80,13 @@ header .navigation-links ul li a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 100px;
     background: url(images/bg-curve-desktop.svg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding: 30px 50px;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
