@@ -150,6 +150,11 @@ header .navigation-links ul li a {
     color: hsl(243, 87%, 12%);
     font-weight: 700;
 }
+.quote .profile-quote #profile-par{
+    font-size: 0.8rem;
+    color: hsl(243, 87%, 12%);
+    margin: 0px;
+}
 .second-brand .second-brand-img img{
     width: 550px;
     height: 400px;
