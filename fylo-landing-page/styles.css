@@ -70,6 +70,11 @@ header .navigation-links ul li a {
     color: hsl(0, 0%, 95%);
     font-size: 0.9rem;
     font-weight: 400;
+    transition: 0.3s all ease-in-out;
+}
+.main-container .brand-container .brand-text button:hover{
+    background: hsl(224, 87%, 68%);
+    cursor: pointer;
 }
 .main-container .brand-container .brand-img img{
     width: 600px;
@@ -212,7 +217,14 @@ header .navigation-links ul li a {
     color: hsl(0, 0%, 95%);
     font-size: 0.9rem;
     font-weight: 400;
+    transition: 0.3s all ease-in-out;
 }
+.email-section .form-email button:hover{
+    background: hsl(224, 87%, 68%);
+    cursor: pointer;
+    border: none;
+}
+
 .main-footer {
     display: flex;
     align-items: center;
@@ -271,6 +283,12 @@ header .navigation-links ul li a {
     margin: 0px 5px;
     border: 1px solid white;
     border-radius: 100%;
+    transition: 0.3s ease-in-out;
+}
+.main-footer .link-social i:hover {
+    color: hsl(224, 87%, 68%);
+    border: 1px solid hsl(224, 87%, 68%);
+    cursor: pointer;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
