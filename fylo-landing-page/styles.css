@@ -213,5 +213,12 @@ header .navigation-links ul li a {
     font-size: 0.9rem;
     font-weight: 400;
 }
+.main-footer {
+    display: flex;
+    gap: 50px;
+    padding: 50px 80px;
+    background: hsl(243, 87%, 12%);
+    color: white;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
