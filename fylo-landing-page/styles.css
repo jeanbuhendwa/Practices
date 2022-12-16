@@ -215,10 +215,62 @@ header .navigation-links ul li a {
 }
 .main-footer {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 50px;
-    padding: 50px 80px;
+    padding: 100px 80px;
     background: hsl(243, 87%, 12%);
     color: white;
+}
+.main-footer .logo-footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.main-footer .logo-footer-section #img-footer-logo{
+    width: 200px;
+    height: 70px;
+}
+.main-footer .logo-footer-section .phone-link{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.main-footer .logo-footer-section .phone-link h3 a{
+    font-size: 0.9rem;
+    color: white;
+    text-decoration: none;
+}
+.main-footer .logo-footer-section .email-link{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.main-footer .logo-footer-section .email-link a{
+    text-decoration: none;
+    color: white;
+}
+.main-footer .nav-footer ul{
+    list-style: none;
+}
+.main-footer .nav-footer ul li{
+    padding: 5px 0px;
+    font-size: 0.8rem;
+}
+.main-footer .nav-footer2 ul{
+    list-style: none;
+}
+.main-footer .nav-footer2 ul li{
+    padding: 5px 0px;
+    font-size: 0.8rem;
+}
+.main-footer .link-social i {
+    padding: 6px;
+    margin: 0px 5px;
+    border: 1px solid white;
+    border-radius: 100%;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
