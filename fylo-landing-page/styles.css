@@ -29,12 +29,26 @@ header .navigation-links ul li {
 header .navigation-links ul li a {
     text-decoration: none;
     color: hsl(238, 22%, 44%);
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width : 600px) {
+    header {
+        padding: 30px;
+    }
+    header #img-logo {
+        width: 120px;
+        height: 35px;
+    }
+    header .navigation-links ul li {
+        padding: 0px 5px;
+    }
+    header .navigation-links ul li a {
+        font-size: 1rem;
+    }
 }
 
 /* This block styles the the brand container */
-/* .main-container {
-    margin: 10px 50px;
-} */
 .main-container .brand-container {
     display: flex;
     align-items: center;
@@ -79,6 +93,37 @@ header .navigation-links ul li a {
 .main-container .brand-container .brand-img img{
     width: 600px;
     height: 400px;
+}
+
+@media only screen and (max-width : 600px) {
+    .main-container .brand-container {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 10px 30px;
+    }
+    .main-container .brand-container .brand-text h1{
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+    .main-container .brand-container .brand-text p{
+        font-size: 1.1rem;
+    }
+    .main-container .brand-container .brand-text input{
+        padding: 12px 18px;
+        border-radius: 3px;
+        width: 80%;
+        margin: 10px auto;
+    }
+    .main-container .brand-container .brand-text button{
+        padding: 12px 18px;
+        width: 91%;
+        margin: 0px auto;
+        border-radius: 3px;
+    }
+    .main-container .brand-container .brand-img img{
+        width: 370px;
+        height: 260px;
+    }
 }
 
 /* This is the styles for the second branding section */
@@ -168,6 +213,76 @@ header .navigation-links ul li a {
     height: 400px;
 }
 
+@media only screen and (max-width : 600px){
+    .second-brand {
+        flex-direction: column-reverse;
+        padding: 150px 30px 80px;
+        text-align: center;
+    }
+    .second-brand .text-second-brand h2 {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    .second-brand .text-second-brand p {
+        font-size: 0.9rem;
+        text-align: justify;
+        line-height: 1.2rem;
+        color: hsl(244, 33%, 20%);
+    }
+    .second-brand .text-second-brand .link-more {
+        margin: 0px auto 30px;
+        padding-bottom: 3px;
+        border-bottom: 1px solid hsl(170, 45%, 43%);
+        width: 135px;
+    }
+    .second-brand .text-second-brand .link-more a{
+        font-size: 0.6rem;
+        line-height: 0.8rem;
+        letter-spacing: 1px;
+    }
+    .second-brand .text-second-brand .link-more img{
+        width: 15px;
+        height: 15px;
+    }
+    .quote {
+        width: 250px;
+        margin: 0px auto;
+        padding: 10px 20px;
+    }
+    .quote #quote-img {
+        float: left;
+    }
+    .quote #paragraph{
+        font-size: 0.6rem;
+        line-height: 1rem;
+        margin: 10px 0px;
+        color: hsl(242, 36%, 14%);
+    }
+    .quote .profile-quote{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .quote .profile-quote img{
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+    }
+    .quote .profile-quote h3{
+        font-size: 0.6rem;
+        text-align: left;
+    }
+    .quote .profile-quote #profile-par{
+        font-size: 0.5rem;
+        color: hsl(243, 87%, 12%);
+        margin: 0px;
+    }
+    .second-brand .second-brand-img img{
+        width: 370px;
+        height: 260px;
+    }
+}
+
 /* This section styles the email section */
 .email-section {
     display: flex;
@@ -223,6 +338,35 @@ header .navigation-links ul li a {
     background: hsl(224, 87%, 68%);
     cursor: pointer;
     border: none;
+}
+@media only screen and (max-width : 600px) {
+    .email-section {
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        padding: 50px 30px;
+    }
+    .email-section .email-text h2 {
+        font-size: 1.6rem;
+        text-align: center;
+        margin: 12px 0px;
+        letter-spacing: 1px;
+    }
+    .email-section .email-text p {
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+        text-align: center;
+    }
+    .email-section .form-email input{
+        padding: 12px 18px;
+        width: 250px;
+        border-radius: 3px;
+    }
+    .email-section .form-email button{
+        padding: 12px 18px;
+        width: 287px;
+        border-radius: 3px;
+    }
 }
 
 .main-footer {
@@ -289,6 +433,42 @@ header .navigation-links ul li a {
     color: hsl(224, 87%, 68%);
     border: 1px solid hsl(224, 87%, 68%);
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-footer {
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 30px;
+        align-items: flex-start;
+        justify-content: left;
+    }
+    .main-footer .logo-footer-section #img-footer-logo{
+        width: 160px;
+        height: 60px;
+        margin: 10px 0;
+    }
+    .main-footer .logo-footer-section .phone-link h3 a{
+        font-size: 1rem;
+    }
+    .main-footer .logo-footer-section .email-link{
+        font-size: 1rem;
+    }
+    .main-footer .logo-footer-section .email-link a{
+        text-decoration: none;
+        color: white;
+    }
+    .main-footer .nav-footer ul li{
+        padding: 10px 0px;
+        font-size: 1rem;
+    }
+    .main-footer .nav-footer2 ul li{
+        padding: 10px 0px;
+        font-size: 1rem;
+    }
+    .main-footer .link-social {
+        margin: 10px auto;
+    }
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
