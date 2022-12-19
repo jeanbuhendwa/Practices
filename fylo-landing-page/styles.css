@@ -7,6 +7,16 @@
     font-family: 'Open Sans';
 }
 
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    background: whitesmoke;
+}
+::-webkit-scrollbar-thumb {
+    background: hsl(243, 87%, 12%);
+}
+
 /* This is the styles for header and navigation menu */
 header {
     padding: 30px 50px;
@@ -470,5 +480,5 @@ header .navigation-links ul li a {
         margin: 10px auto;
     }
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
