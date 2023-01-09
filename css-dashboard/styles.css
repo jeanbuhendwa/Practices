@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding-top: 56px;
+    background: #201b37;
+}
+nav {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    background: #463497;
+}
+h2 {
+    display: flex;
+    height: 120px;
+    margin: 0;
+    background: #201b37;
+}
+main {
+    display: flex;
+    background: #ebebeb;
+}
+aside {
+    position: sticky;
+    z-index: 1;
+    top: 76px;
+    height: 100%;
+    width: 160px;
+}
+section {
+    flex: 1 1 auto;
+}
