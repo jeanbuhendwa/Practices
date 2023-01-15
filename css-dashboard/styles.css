@@ -30,19 +30,40 @@ h2 {
   padding: 0 20px;
 }
 main {
-    display: flex;
-    background: #ebebeb;
+  display: flex;
+  background: #ebebeb;
 }
+
 aside {
-    position: sticky;
-    z-index: 1;
-    top: 76px;
-    height: 100%;
-    width: 160px;
-    padding: 20px;
+  position: sticky;
+  z-index: 1;
+  top: 76px;
+  height: 100%;
+  width: 160px;
+  padding: 20px;
 }
+
+aside h3 {
+  color: #716f6f;
+}
+
+aside label {
+  color: #1d1d1d;
+  font-size: 14px;
+}
+
 section {
     flex: 1 1 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 250px);
+    gap: 10px;
+}
+
+section .box {
+  padding: 10px;
+  background-color: #fff;
+  margin: 10px;
 }
 
 #navigation {
