@@ -94,3 +94,9 @@ section .box {
 #navigation .logo-section a:hover {
   color: #201b37;
 }
+
+@media screen and (min-width: 768px) and (max-width: 920px){
+  body {
+    display: none;
+  }
+}
