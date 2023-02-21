@@ -1,14 +1,6 @@
-import _ from "../node_modules/lodash";
+import jokeGenerator from "./generateJoke.js";
+import component from "./generateJoke.js";
 
-function component() {
-  const element = document.createElement("div");
+component();
 
-  // Lodash, currently included via a script, is required for this line to work
-  //   Lodash is now imported by this script
-  element.innerHTML = _.join(["Hello", "webpack"], " ");
-  element.classList.add("hello");
-
-  return element;
-}
-
-document.body.appendChild(component());
+console.log(jokeGenerator());
