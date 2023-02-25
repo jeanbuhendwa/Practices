@@ -40,3 +40,45 @@ body {
     gap: 20px;
     list-style: none;
 }
+
+#logo{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+#logoIcon{
+  color: #45C4B0;
+}
+
+#logo-nav {
+    color: #012030;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -2px;
+}
+
+#logo-nav #logoSpan {
+    color: #45C4B0;
+}
+
+.nav-menu a {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    text-decoration: none;
+    color: #012030;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-menu a:hover {
+    color: #45C4B0;
+}
+
+.body-text {
+    margin: 0 10%;
+    text-align: justify;
+}
