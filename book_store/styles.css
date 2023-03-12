@@ -82,3 +82,12 @@ body {
     margin: 0 10%;
     text-align: justify;
 }
+
+/* Homepage styling */
+.home-page {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+    margin: 0 10%;
+    padding: 50px 0;
+}
